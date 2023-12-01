@@ -8,7 +8,7 @@ const RecipeCard = ({ recipe }) => {
 
     return (
         <Link to={`/recipes/${id}`} className='w-full md:w-[260px] border border-pink-800 hover:border-pink-100 shadow-emerald-400 rounded-sm'>
-            <div className='shadow w-full rounded-lg'>
+            <div className='shadow w-full h-full'>
                 <img src={image} alt={label} className='h-[200px] md:h-[150px] w-full rounded-sm' />
 
                 <div className='p-3'>

@@ -30,10 +30,10 @@ const Navbar = () => {
                     {open ? <AiOutlineClose /> : <HiMenuAlt3 />}
                 </button>
             </nav>
-            <div className={`${open ? "flex" : "hidden"} bg-black flex-col w-full px-4 pt-16 pb-10 text-white gap-6 text-[14px]`}>
-                <a href="/">Home</a>
-                <a href="/#recipes">Recipes</a>
-                <a href="/">Favorites</a>
+            <div className={`${open ? "flex" : "hidden"} bg-slate-800 flex-col w-full px-4 pt-4 pb-4 text-white gap-6 text-[14px]`}>
+                <a href="/"  className="hover:text-pink-500">Home</a>
+                <a href="/#recipes" className="hover:text-pink-500">Recipes</a>
+                <a href="/" className="hover:text-pink-500">Favorites</a>
             </div>
         </header>
     )
