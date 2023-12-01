@@ -3,4 +3,5 @@ FoodieFare is the recipeapp built using edamam api and Reactjs framework. Tailwi
  
 ## Here the snapshots of the project
 
-![Home](/screenshots/home_page.jpeg)
+![Home](./screenshoots/home_page.jpeg)
+
